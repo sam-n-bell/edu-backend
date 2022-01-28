@@ -10,3 +10,7 @@
 
 # Running App Locally (outside Docker)
 1. In terminal, run: `uvicorn app:app`
+
+# To see README:
+1. run app
+2. `<localhost>:<port>/docs`
