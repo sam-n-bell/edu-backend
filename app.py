@@ -1,8 +1,6 @@
 from fastapi import FastAPI
+from routers.system import router as system_router
 
 app = FastAPI()
 
-
-@app.get("/")
-def system_check():
-    return {"Message": "I'm still here"}
+app.include_router(system_router, prefix="/system", tags=["health"])
