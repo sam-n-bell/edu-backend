@@ -9,4 +9,4 @@
 2. in an active venv, run `pip install -r requirements.txt`
 
 # Running App Locally (outside Docker)
-1. In terminal, run: `uvicorn main:app`
+1. In terminal, run: `uvicorn app:app`
