@@ -2,7 +2,10 @@ from pydantic import BaseModel
 from typing import List
 
 
-class MultipleChoiceProblem(BaseModel):
+class FlashCard(BaseModel):
     question: str
     correct_answer: str
-    answer_choices: List[str]
+
+
+class MultiplicationTable(BaseModel):
+    numbers: List[FlashCard]
