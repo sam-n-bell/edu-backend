@@ -1,7 +1,7 @@
 # Setup virtual env (Windows 11 | Python 3.9)
 0. pip install virtualenv
 1. Create a venv: `python -m virtualenv .venv`
-2. Activate venv: `source .\.venv\Scripts\activate`
+2. Activate venv: `.\.venv\Scripts\activate`
 3. Deactivate venv: `deactivate`
 
 # Custom Requirements
