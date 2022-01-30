@@ -1,0 +1,10 @@
+version: "3.5"
+services:
+    kids-app-api:
+        container_name: "kids-app-api"
+        build:
+            context: ./app
+        ports:
+            - "8000:8000"
+        environment:
+            - PYTHONPATH=/usr/src/app
